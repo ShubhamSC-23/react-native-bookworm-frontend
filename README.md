@@ -1,50 +1,38 @@
-# Welcome to your Expo app 👋
+# 📚 Book Recommendation App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A cross-platform **mobile app** built using **React Native** for the frontend and the **MERN stack** (MongoDB, Express.js, React, Node.js) for the backend. This app allows users to register, log in, and view a curated list of recommended books. All data is fetched using the native `fetch` API with `async/await`.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Features
 
-   ```bash
-   npm install
-   ```
+- 📘 **Recommended Books**
+  - Displays a list of books curated on the backend.
+  - Each book includes a title, author, description, and optional cover image.
 
-2. Start the app
+- 👤 **User Authentication**
+  - Register and log in securely.
+  - JWT-based authentication system.
 
-   ```bash
-   npx expo start
-   ```
+- ⚡ **Async API Calls**
+  - All data is fetched from the backend using `fetch` with `async/await`.
+  - Clean and efficient network communication.
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🛠️ Tech Stack
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Frontend
+- React Native
+- JavaScript
+- Expo (for dev convenience)
+- Fetch API + Async/Await
 
-## Get a fresh project
+### Backend
+- Node.js
+- Express.js
+- MongoDB + Mongoose
+- JWT for authentication
+- RESTful APIs
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
